@@ -2,53 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Settings | KaKao Clone</title>
+    <title>Settings</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+        <div class="status-bar-column">
+            <span class="status-bar-clock">04:26</span>
         </div>
-        <div class="status-bar__column">
+        <div class="status-bar-column">
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-off"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
+            <span class="status-bar-battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
     </div>
 
     <header class="header">
-        <div class="header__header-column">
-            <a href="more.html">
+        <div class="header-column">
+            <a href="more1.html">
                 <i class="fas fa-arrow-left"></i>
             </a>
-            <h1 class="header__header-title">Settings</h1>
         </div>
-        <div class="header__header-column">
-            <span class="header__header-icon">
+        <div class="header-column">
+            <h1 class="header-title">Settings</h1>
+        </div>
+        <div class="header-column">
+            <div class="header-icon">
                 <i class="fas fa-search"></i>
-            </span>
+            </div>
         </div>
     </header>
 
-    <main class="settings">
-        <section class="settings__section">
-            <ul class="settings__list">
-                <li class="settings__setting">
-                    <span class="settings_icon"><i class="fas fa-lock"></i></span>
-                    <span class="settings__title">Privacy</span>
+    <main class="settings-setting">
+        <section class="settings-section">
+            <ul class="settings-setting">
+                <li class="settings-setting-column">
+                    <span class="settings-setting-icon"><i class="fas fa-lock"></i></span>
+                    <span class="settings-setting-name">Privacy</span>
                 </li>
-                <li class="settings__setting">
-                    <span class="settings_icon"><i class="far fa-bell"></i></span>
-                    <span class="settings__title">Notifications</span>
+                <li class="settings-setting-column">
+                    <span class="settings-setting-icon"><i class="far fa-bell"></i></span>
+                    <span class="settings-setting-name">Notifications</span>
                 </li>
-                <li class="settings__setting">
-                    <span class="settings_icon"><i class="far fa-user"></i></span>
-                    <span class="settings__title">Friends</span>
+                <li class="settings-setting-column">
+                    <span class="settings-setting-icon"><i class="far fa-user"></i></span>
+                    <span class="settings-setting-name">Friends</span>
                 </li>
             </ul>
         </section>

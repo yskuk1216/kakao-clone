@@ -2,97 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>More | KaKao Clone</title>
+    <title>More</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+        <div class="status-bar-column">
+            <span class="status-bar-clock">04:26</span>
         </div>
-        <div class="status-bar__column">
+        <div class="status-bar-column">
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-off"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
+            <span class="status-bar-battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
     </div>
 
     <header class="header">
-        <div class="header__header-column">
-            <h1 class="header__header-title">More</h1>
+        <div class="header-column">
+            <h1 class="header-title">More</h1>
         </div>
-        <div class="header__header-column">
-            <span class="header__header-icon">
+        <div class="header-column">
+            <div class="header-icon">
                 <i class="fas fa-search"></i>
-            </span>
-            <span class="header__header-icon">
+            </div>
+            <div class="header-icon">
                 <i class="fas fa-qrcode"></i>
-            </span>
-            <span class="header__header-icon">
-                <a href="settings.html"><i class="fas fa-cog"></i></a>
-            </span>
+            </div>
+            <div class="header-icon">
+                <a href="settings1.html">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="more">
-        <header class="more__header">
-            <div class="friends__friend friend friend--lg">
-                 <div class="friend__column">
-                     <img src="/images/me.jpg" class="g-avatar friend__avatar">
-                     <div class="friend__content">
-                        <span class="friend__name">Yongsoo Kwon</span>
-                        <span class="friend__status">k.yongsoo@mymusictaste.com</span>
-                     </div>
-                 </div>
-                 <div class="friend__column">
-                     <i class="far fa-comment-alt"></i>
-                 </div>
+        <div class="more-me">
+            <div class="more-me-profile">
+                <img src="images/me.jpg" style="width: 80px; height: 80px">
             </div>
-            <ul class="more__btn-list">
-                <li class="more__btn-">
-                    <span class="more__btn-icon"><i class="far fa-smile"></i></span>
-                    <span class="more__btn-title">Emoticons</span>
-                </li>
-                <li class="more__btn-">
-                    <span class="more__btn-icon"><i class="fas fa-brush"></i></span>
-                    <span class="more__btn-title">Themes</span>
-                </li>
-                <li class="more__btn-">
-                    <span class="more__btn-icon"><i class="fab fa-kickstarter"></i></span>
-                    <span class="more__btn-title">Account</span>
-                </li>
-            </ul>
-        </header>
-        <section class="more__suggestions">
-            <h5 class="more__title">Suggestions</h5>
-            <ul class="more__suggestions-list">
-                <li class="more__suggestions suggestion">
-                    <span class="suggestion__icon"><i class="fas fa-quote-right"></i></span>
-                    <span class="suggestion__title">Kakao Story</span>
-                </li>
-                <li class="more__suggestions suggestion">
-                    <span class="suggestion__icon"><i class="far fa-kiss-beam"></i></span>
-                    <span class="suggestion__title">kakao friends</span>
-                </li>
-                <li class="more__suggestions suggestion">
-                    <span class="suggestion__icon"><i class="fas fa-gamepad"></i></span>
-                    <span class="suggestion__title">Friends Gem</span>
-                </li>
-            </ul>
-        </section>
+            <div class="more-me-content">
+                <span class="more-me-name">Yongsoo</span>
+                <span class="more-me-email">k.yongsoo@mymusictaste.com</span>
+            </div>
+            <div class="more-me-icon">
+                <i class="far fa-comment-alt"></i>
+            </div>
+        </div>
+        <div class="more-btn">
+            <div class="more-btn-column">
+                <span class="more-btn-icon"><i class="far fa-smile"></i></span>
+                <span class="more-btn-name">Emotions</span>
+            </div>
+            <div class="more-btn-column">
+                <span class="more-btn-icon"><i class="fas fa-brush"></i></span>
+                <span class="more-btn-name">Themes</span>
+            </div>
+            <div class="more-btn-column">
+                <span class="more-btn-icon"><i class="fab fa-kickstarter"></i></span>
+                <span class="more-btn-name">Account</span>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h5 class="more-suggestions-title">Suggestions</h5>
+            <div class="more-suggestions-column">
+                <span class="more-suggestions-icon"><i class="fas fa-quote-right"></i></span>
+                <span class="more-suggestions-name">Kakao Story</span>
+            </div>
+            <div class="more-suggestions-column">
+                <span class="more-suggestions-icon"><i class="far fa-kiss-beam"></i></span>
+                <span class="more-suggestions-name">Kakao Friends</span>
+            </div>
+            <div class="more-suggestions-column">
+                <span class="more-suggestions-icon"><i class="fas fa-gamepad"></i></span>
+                <span class="more-suggestions-name">Friends Gem</span>
+            </div>
+        </div>
     </main>
 
-    <nav class="navigation">
-        <ul class="nav__list">
-            <li class="nav__list-item"><a href="friends.html" class="nav__list-link"><i class="far fa-user"></i></a></li>
-            <li class="nav__list-item"><a href="index.html" class="nav__list-link"><i class="far fa-comments"></i></a></li>
-            <li class="nav__list-item"><a href="find.html" class="nav__list-link"><i class="fas fa-search"></i></a></li>
-            <li class="nav__list-item"><a href="more.html" class="nav__list-link"><i class="fas fa-ellipsis-h"></i></a></li>
-        </ul>
+    <nav class="nav">
+        <div class="nav-column">
+            <a href="friends1.html">
+                <div class="nav-icon">
+                    <i class="far fa-user"></i>
+                </div>
+            </a>
+        </div>
+        <div class="nav-column">
+            <a href="index1.html">
+                <div class="nav-icon">
+                    <i class="far fa-comment"></i>
+                </div>
+            </a>
+        </div>
+        <div class="nav-column">
+            <a href="find1.html">
+                <div class="nav-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </a>
+        </div>
+        <div class="nav-column">
+            <a href="more1.html">
+                <div class="nav-icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </a>
+        </div>
     </nav>
 </body>
 </html>

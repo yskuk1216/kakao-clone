@@ -2,68 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chats | KaKao Clone</title>
+    <title>Index | Kakao Clone</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+        <div class="status-bar-column">
+            <span class="status-bar-clock">04:26</span>
         </div>
-        <div class="status-bar__column">
+        <div class="status-bar-column">
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-off"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
+            <span class="status-bar-battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
     </div>
 
     <header class="header">
-        <div class="header__header-column">
-            <h1 class="header__header-title">Chats</h1>
+        <div class="header-column">
+            <h1 class="header-title">Chats</h1>
         </div>
-        <div class="header__header-column">
-            <span class="header__header-icon">
+        <div class="header-column">
+            <div class="header-icon">
                 <i class="fas fa-search"></i>
-            </span>
-            <span class="header__header-icon">
-                <i class="far fa-comments"></i>
-            </span>
-            <span class="header__header-icon">
-                <i class="fas fa-cog"></i>
-            </span>
+            </div>
+            <div class="header-icon">
+                <i class="far fa-comment-dots"></i>
+            </div>
+            <div class="header-icon">
+                <a href="settings1.html">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="chats">
-        <ul class="chats__lists">
-            <li class="chats__chat chat">
-                <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="images/me.jpg">
-                        <div class="chat_content">
-                            <span class="chat__username">Lynn</span>
-                            <span class="chat_preview">Going home</span>
-                        </div>
+        <ul class="chats-list">
+            <li class="chats-chat">
+                <div class="chat-profile">
+                    <img src="images/mike.jpeg" style="width: 50px; height: 50px">
+                </div>
+                <div class="chat-content">
+                    <span class="chat-name">Mike</span>
+                    <span class="chat-preview">where r u</span>
+                </div>
+            </li>
+            <li class="chats-chat">
+                <a href="chat1.html">
+                    <div class="chat-profile">
+                        <img src="images/dongkyu.png" style="width: 50px; height: 50px">
                     </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp">Yesterday</span>
+                    <div class="chat-content">
+                        <span class="chat-name">Dongkyu</span>
+                        <span class="chat-preview">wanna play football?</span>
                     </div>
                 </a>
+            </li>
+            <li class="chats-chat">
+                <div class="chat-profile">
+                    <img src="images/hyuntae.png" style="width: 50px; height: 50px">
+                </div>
+                <div class="chat-content">
+                    <span class="chat-name">Hyuntae</span>
+                    <span class="chat-preview">r u done?</span>
+                </div>
             </li>
         </ul>
     </main>
 
-    <nav class="navigation">
-        <ul class="nav__list">
-            <li class="nav__list-item"><a href="friends.html" class="nav__list-link"><i class="far fa-user"></i></a></li>
-            <li class="nav__list-item"><a href="index.html" class="nav__list-link"><i class="fas fa-comments"></i></a></li>
-            <li class="nav__list-item"><a href="find.html" class="nav__list-link"><i class="fas fa-search"></i></a></li>
-            <li class="nav__list-item"><a href="more.html" class="nav__list-link"><i class="fas fa-ellipsis-h"></i></a></li>
-        </ul>
+    <nav class="nav">
+        <div class="nav-column">
+            <a href="friends1.html">
+                <div class="nav-icon">
+                    <i class="far fa-user"></i>
+                </div>
+            </a>
+        </div>
+        <div class="nav-column">
+            <a href="index1.html">
+                <div class="nav-icon">
+                    <i class="fas fa-comment"></i>
+                </div>
+            </a>
+        </div>
+        <div class="nav-column">
+            <a href="find1.html">
+                <div class="nav-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </a>
+        </div>
+        <div class="nav-column">
+            <a href="more1.html">
+                <div class="nav-icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </a>
+        </div>
     </nav>
 </body>
 </html>

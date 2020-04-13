@@ -2,80 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chat | KaKao Clone</title>
+    <title>Chat</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+        <div class="status-bar-column">
+            <span class="status-bar-clock">04:26</span>
         </div>
-        <div class="status-bar__column">
+        <div class="status-bar-column">
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-off"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
+            <span class="status-bar-battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
     </div>
 
     <header class="header">
-        <div class="header__header-column">
-            <a href="index.html">
+        <div class="header-column">
+            <a href="index1.html">
                 <i class="fas fa-arrow-left"></i>
             </a>
-            <h1 class="header__header-title">Best Friend</h1>
         </div>
-        <div class="header__header-column">
-            <span class="header__header-icon">
+        <div class="header-column">
+            <h1 class="header-title">Dongkyu</h1>
+        </div>
+        <div class="header-column">
+            <div class="header-icon">
                 <i class="fas fa-search"></i>
-            </span>
-            <span class="header__header-icon">
+            </div>
+            <div class="header-icon">
                 <i class="fas fa-bars"></i>
-            </span>
+            </div>
         </div>
     </header>
 
     <main class="chat">
-        <ul class="chat__messages">
-            <span class="chat__timestamp">Friday, January 11, 2019</span>
-            <li class="incoming-message">
-                <img src="images/me.jpg" class="g-avatar">
-                <div class="g-avatar message__avatar"></div>
-                <div class="message__content">
-                    <span class="message__author">Best Friend</span>
-                    <div class="message__bubble">Congrats I love you</div>
+        <ul class="chat-message">
+            <h5 class="chat-message-timestamp">Sunday, 12 April 2020</h5>
+            <li class="chat-message-get">
+                <div class="message-get-profile">
+                    <img src="images/dongkyu.png" style="width: 50px; height: 50px">
                 </div>
-                <span class="message__timestamp">15:19</span>
+                <div class="message-get-column">
+                    <span class="message-get-name">Dongkyu</span>
+                    <span class="message-get-content">what r u doing this weekend</span>
+                </div>
+                <span class="message-get-timestamp">04:22</span>
             </li>
-            <li class="incoming-message">
-                <div class="g-avatar message__avatar"></div>
-                <span class="message__timestamp">15:22</span>
-                <div class="message__content">
-                    <div class="message__bubble">Congrats I love you</div>
+            <li class="chat-message-sent">
+                <span class="message-get-timestamp">04:24</span>
+                <div class="message-get-column">
+                    <span class="message-get-content">nothing</span>
                 </div>
             </li>
-            <li class="incoming-message">
-                <img src="images/me.jpg" class="g-avatar">
-                <div class="g-avatar message__avatar"></div>
-                <div class="message__content">
-                    <span class="message__author">Best Friend</span>
-                    <div class="message__bubble">Sounds great!</div>
+            <li class="chat-message-get">
+                <div class="message-get-profile">
+                    <img src="images/dongkyu.png" style="width: 50px; height: 50px">
                 </div>
-                <span class="message__timestamp">15:23</span>
+                <div class="message-get-column">
+                    <span class="message-get-name">Dongkyu</span>
+                    <span class="message-get-content">wanna play football?</span>
+                </div>
+                <span class="message-get-timestamp">04:25</span>
             </li>
         </ul>
     </main>
 
-    <div class="chat__write">
-        <div class="chat__write-column"><i class="far fa-plus-square"></i></div>
-        <div class="chat__write-column"><input class="chat__write-input" type="text" placeholder="Send message"/>
+    <div class="chat-write">
+        <div class="chat-write-column">
+            <div class="chat-write-icon">
+                <i class="far fa-plus-square"></i>
+            </div>
         </div>
-        <div class="chat__write-column">
-            <span class="chat__write-icon"><i class="far fa-smile-wink"></i></span>
-            <span class="chat__write-icon"><i class="fas fa-microphone"></i></span>
+        <div class="chat-write-column">
+            <input class="chat-write-input" type="text" placeholder="Send message">
+        </div>
+        <div class="chat-write-column">
+            <div class="chat-write-icon">
+                <i class="far fa-smile-wink"></i>
+            </div>
+            <div class="chat-write-icon">
+                <i class="fas fa-microphone"></i>
+            </div>
         </div>
     </div>
 </body>
