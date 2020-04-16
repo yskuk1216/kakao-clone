@@ -3,3 +3,9 @@
 @import "status-bar.css";
 
 /* default 설정 */
+body {
+    background-color: white;
+    padding: 10px 20px;
+    color: #020202;
+    font-family: "Open Sans";
+}
