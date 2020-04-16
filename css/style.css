@@ -1,11 +1,15 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 @import "status-bar.css";
-
+@import "header.css";
 /* default 설정 */
 body {
     background-color: white;
     padding: 10px 20px;
     color: #020202;
     font-family: "Open Sans";
+}
+
+a {
+    color: inherit;
 }
