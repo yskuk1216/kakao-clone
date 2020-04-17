@@ -1,0 +1,10 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import "status-bar.css";
+
+body {
+    background-color: white;
+    color: #020202;
+    padding: 10px 20px;
+    font-family: "Open Sans";
+}
