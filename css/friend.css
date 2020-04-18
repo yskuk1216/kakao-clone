@@ -4,7 +4,8 @@
     align-items: center;
 }
 
-.friend .friend-profile {
+.friend .friend-profile,
+.chat .friend-profile{
     border-radius: 35%;
 }
 
@@ -13,7 +14,8 @@
     height: 70px;
 }
 
-.friend .m-profile {
+.friend .m-profile,
+.chat .m-profile {
     width: 50px;
     height: 50px;
 }
