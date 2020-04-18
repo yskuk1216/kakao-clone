@@ -8,7 +8,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="chat-body">
     <div class="status-bar">
         <div class="status-bar-column">
             <span class="status-bar-clock">04:26</span>
@@ -25,7 +25,7 @@
     <header class="header">
         <div class="header-column">
             <a href="index.html" class="header-back-btn">
-                <i class="fas fa-arrow-left fa-2x"></i>
+                <i class="fas fa-arrow-left"></i>
             </a>
             <h1 class="header-title">Jungwon</h1>
         </div>
@@ -36,43 +36,41 @@
     </header>
 
     <main class="chat">
-        <ul class="chat-message">
+        <div class="chat-messages">
             <span class="chat-timestamp">Wendseday, April 16, 2020</span>
-            <li class="incoming-message message">
+            <div class="incoming-message message">
                 <img class="friend-profile m-profile" src="images/kang.png">
                 <div class="message-content">
                     <span class="message-author">Jungwon</span>
-                    <div class="message-bubble">Football manager</div>
+                    <span class="message-bubble">Football manager</span>
                 </div>
                 <span class="message-timestamp">00:02</span>
-            </li>
-            <li class="incoming-message message">
+            </div>
+            <div class="sent-message message">
                 <span class="message-timestamp">00:03</span>
-                <div class="message-content">
-                    <div class="message-bubble">Already installed</div>
-                </div>
-            </li>
-            <li class="incoming-message message">
+                <span class="message-bubble">Already installed</span>
+            </div>
+            <div class="incoming-message message">
                 <img class="friend-profile m-profile" src="images/kang.png">
                 <div class="message-content">
                     <span class="message-author">Jungwon</span>
-                    <div class="message-bubble">Good job</div>
+                    <span class="message-bubble">Good job</span>
                 </div>
                 <span class="message-timestamp">00:04</span>
-            </li>
-            <li class="incoming-message message">
+            </div>
+            <div class="sent-message message">
                 <span class="message-timestamp">00:06</span>
-                <div class="message-content">
-                    <div class="message-bubble">Happy Birthday!</div>
-                </div>
-            </li>
-        </ul>
+                <span class="message-bubble">Happy Birthday!</span>
+            </div>
+        </div>
     </main>
 
     <div class="chat-write">
-        <div class="chat-write-column"><i class="far fa-square"></i></div>
         <div class="chat-write-column">
-            <input class="chat-write-input" type="text" placeholder="Send message">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat-write-column">
+            <input class="chat-write-input" type="text">
         </div>
         <div class="chat-write-column">
             <span class="chat-write-icon"><i class="far fa-smile-wink"></i></span>
