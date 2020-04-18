@@ -1,5 +1,19 @@
+.header-wrapper {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: white;
+
+}
+
 .chat-body {
-    padding: 0;
+    padding: 10px 0px;
+    padding-top: 100px;
+}
+
+.friends-body {
+    padding-top: 150px;
 }
 
 .chat-body .status-bar,
@@ -7,9 +21,9 @@
     padding: 0px 20px;
 }
 
-.chat {
+.chat-body {
     background-image: url("../images/chat_background.png");
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 .chat-write {
@@ -29,6 +43,7 @@
                 0 18px 36px -18px rgba(0, 0, 0, 0.3),
                 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
+
 
 .chat-write i {
     font-size: 22px;

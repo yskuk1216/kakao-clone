@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="chat-body">
-    <div class="status-bar">
-        <div class="status-bar-column">
-            <span class="status-bar-clock">04:26</span>
+    <div class="header-wrapper">
+        <div class="status-bar">
+            <div class="status-bar-column">
+                <span class="status-bar-clock">04:26</span>
+            </div>
+            <div class="status-bar-column">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-volume-off"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar-battery-level">100%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
         </div>
-        <div class="status-bar-column">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-off"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar-battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
-        </div>
-    </div>
 
-    <header class="header">
+        <header class="header">
         <div class="header-column">
             <a href="index.html" class="header-back-btn">
                 <i class="fas fa-arrow-left"></i>
@@ -34,6 +35,8 @@
             <span class="header-icon"><i class="fas fa-bars"></i></span>
         </div>
     </header>
+    </div>
+
 
     <main class="chat">
         <div class="chat-messages">
@@ -70,7 +73,7 @@
             <i class="far fa-plus-square"></i>
         </div>
         <div class="chat-write-column">
-            <input class="chat-write-input" type="text">
+            <input class="chat-write-input" type="text" placeholder="Send message">
         </div>
         <div class="chat-write-column">
             <span class="chat-write-icon"><i class="far fa-smile-wink"></i></span>

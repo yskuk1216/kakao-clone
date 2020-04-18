@@ -1,3 +1,7 @@
+.friends-body {
+    min-height: 120vh;
+}
+
 .friend {
     display: flex;
     justify-content: space-between;
