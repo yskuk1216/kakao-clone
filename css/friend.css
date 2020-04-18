@@ -63,3 +63,12 @@
 .chats .chats-chat {
     margin-bottom: 20px;
 }
+
+.friend-add-btn {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
