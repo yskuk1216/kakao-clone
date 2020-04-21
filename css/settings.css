@@ -1,0 +1,30 @@
+.setting-body {
+    min-height: 110vh;
+}
+
+.settings {
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+}
+
+.settings .setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.setting .setting-icon {
+    font-size: 17px;
+    opacity: 0.6;
+    padding-right: 15px;
+}
+
+.setting .setting-title {
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.setting .setting-etc {
+    opacity: 0.6;
+}
