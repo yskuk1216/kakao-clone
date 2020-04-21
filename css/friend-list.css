@@ -1,3 +1,7 @@
+.friends-body {
+    min-height: 110vh;
+}
+
 .friend {
     display: flex;
     justify-content: space-between;
@@ -21,7 +25,8 @@
     font-weight: 600;
 }
 
-.friend .friend-preview {
+.friend .friend-preview,
+.friend .friend-status {
     font-size: 12px;
     opacity: 0.6;
 }
@@ -31,6 +36,25 @@
     font-size: 11px;
     opacity: 0.6;
     margin-bottom: 8px;
+}
+
+.friend .friend-header-bar-count,
+.friend .friend-header-bar-icon {
+    font-size: 11px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.friend .friend-music {
+    font-size: 10px;
+    color: #0284FF;
+    margin-right: 5px;
+}
+
+.friend .friend-music-icon {
+    font-size: 10px;
+    color: #0284FF;
 }
 
 .friend .friend-msg-status {
@@ -49,7 +73,33 @@
 
 
 .friend .m-profile {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 40%;
+}
+
+.friend .g-profile {
+    width: 55px;
+    height: 55px;
+    border-radius: 40%;
+}
+
+.friend .friend-header-bar {
+    font-size: 15px;
+}
+
+.friend-header-bar-title{
+    font-size: 11px;
+    color: #0284FF;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.friend .music-listen {
+    border: 1.2px solid #0284FF;
+    padding: 1px 8px;
+    padding-bottom: 4px;
+    border-radius: 15px;
+    opacity: 0.8;
+
 }
