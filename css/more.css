@@ -62,3 +62,7 @@
 .more-mail .mail-status {
     opacity: 0.6;
 }
+
+.more-mail-column i {
+    margin-right: 5px;
+}
