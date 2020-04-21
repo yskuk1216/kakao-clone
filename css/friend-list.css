@@ -26,7 +26,8 @@
 }
 
 .friend .friend-preview,
-.friend .friend-status {
+.friend .friend-status,
+.friend .friend-email {
     font-size: 12px;
     opacity: 0.6;
 }
@@ -51,6 +52,7 @@
     color: #0284FF;
     margin-right: 5px;
 }
+
 
 .friend .friend-music-icon {
     font-size: 10px;
@@ -102,4 +104,18 @@
     border-radius: 15px;
     opacity: 0.8;
 
+}
+
+.friend .point {
+    border: 1.2px solid;
+    padding: 3px 11px;
+    padding-bottom: 4px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+.friend .friend-point-title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
 }
