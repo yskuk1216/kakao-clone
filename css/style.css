@@ -14,3 +14,7 @@ body {
     padding: 10px 20px;
     font-family: "Open Sans";
 }
+
+a {
+    color: inherit;
+}
