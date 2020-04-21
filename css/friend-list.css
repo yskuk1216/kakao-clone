@@ -1,0 +1,38 @@
+.friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.friend .friend-column {
+    display: flex;
+    align-items: center;
+}
+
+.friend .friend-content {
+    margin-left: 15px;
+}
+
+.friend .friend-username {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.friend .friend-preview {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.friend .friend-timestamp {
+    font-size: 11px;
+    opacity: 0.6;
+}
+
+.friend .m-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
