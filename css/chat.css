@@ -42,6 +42,7 @@
     margin-left: 55px;
 }
 
+.get-msg .msg-timestamp,
 .get-msg-add .msg-timestamp {
     font-size: 10px;
     opacity: 0.6;
@@ -50,7 +51,12 @@
 
 .sent_message {
     margin-bottom: 20px;
-    float: right;
+}
+
+.sent_message .sent-msg,
+.sent_message .sent-msg-add {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
