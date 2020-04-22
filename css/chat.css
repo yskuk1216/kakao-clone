@@ -4,40 +4,71 @@
     margin-bottom: 15px;
 }
 
-.chat-msg {
-    display: flex;
-    margin-bottom: 12px;
+.get_message {
+    margin-bottom: 20px;
 }
 
-.chat-msg .msg-column {
+.get_message .get-msg-column {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
-.chat-msg .msg-username {
+.get_message img {
+    margin-right: 10px;
+}
+
+.get_message .msg-username {
     display: block;
     font-size: 13px;
-    margin-bottom: 10px;
     opacity: 0.6;
+    margin-bottom: 8px;
 }
 
-.chat-msg .msg-get-text {
+.get-msg-add {
+    margin-bottom: 15px;
+}
+
+.get_message .msg-get-text,
+.get-msg-add .msg-get-text {
     font-size: 15px;
-    font-weight: 100;
-    padding: 3px 10px;
+    font-weight: 300;
     background-color: #f0f0f0;
     border-radius: 40px;
+    padding: 3px 9px;
 }
 
-.chat-msg .msg-timestamp {
+.get-msg-add .get-msg-empty {
+    margin-left: 55px;
+}
+
+.get-msg-add .msg-timestamp {
     font-size: 10px;
     opacity: 0.6;
 }
 
-.chat-msg img {
-    margin-right: 15px;
+
+.sent_message {
+    margin-bottom: 20px;
+    float: right;
 }
 
-.chat-msg .msg-empty {
-    margin-right: 60px;
+
+
+.sent_message .sent-msg-column {
+    margin-bottom: 14px;
+}
+
+.sent_message .msg-sent-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: honeydew;
+    background-color: #0284FF;
+    border-radius: 40px;
+    padding: 3px 9px;
+}
+
+.sent_message .msg-timestamp {
+    font-size: 10px;
+    opacity: 0.6;
 }
