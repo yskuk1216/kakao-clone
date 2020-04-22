@@ -6,7 +6,7 @@
 
 .chat-msg {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .chat-msg .msg-column {
