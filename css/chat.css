@@ -1,0 +1,43 @@
+.message .msg-divider {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.chat-msg {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chat-msg .msg-column {
+    display: flex;
+    align-items: center;
+}
+
+.chat-msg .msg-username {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.chat-msg .msg-get-text {
+    font-size: 15px;
+    font-weight: 100;
+    padding: 3px 10px;
+    background-color: #f0f0f0;
+    border-radius: 40px;
+}
+
+.chat-msg .msg-timestamp {
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.chat-msg img {
+    margin-right: 15px;
+}
+
+.chat-msg .msg-empty {
+    margin-right: 60px;
+}
