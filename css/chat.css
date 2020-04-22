@@ -78,3 +78,50 @@
     font-size: 10px;
     opacity: 0.6;
 }
+
+
+.type-message {
+    position: fixed;
+    bottom: 0px;
+    width: 90%;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+.type-message_input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+    border: 2px solid #f0f0f0;
+    border-radius: 40px;
+    padding: 8px;
+}
+
+
+
+.type-message_input input {
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    border: none;
+
+}
+
+.type-message_input .fa-smile {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.type-message_input .fa-hashtag {
+    opacity: 0.6;
+}
