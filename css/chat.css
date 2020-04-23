@@ -1,4 +1,7 @@
-
+.chat-body {
+    padding-top: 115px;
+    min-height: 105vh;
+}
 
 .message .msg-divider {
     text-align: center;
