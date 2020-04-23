@@ -3,6 +3,12 @@
     min-height: 118vh;
 }
 
+.chats-body {
+    padding-top: 115px;
+    min-height: 118vh;
+}
+
+
 .friend {
     display: flex;
     justify-content: space-between;
